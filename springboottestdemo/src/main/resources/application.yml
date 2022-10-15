@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    name: study
+    url: jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&autoReconnectForPools=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    username: root
+    password: 516516
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.knowledge.system.springbootdemo.bean
